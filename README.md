@@ -52,7 +52,7 @@ Listo, el nombre del comando debería de aparecer de esta forma y le damos en `C
 
 De este modo podemos ejecutar el `makefile` sin la necesidad de hacerlo manualmente.
 
-Ahora, faltaría configurar la tecla (podría el `F10`) para poder ejecutar el programa. Son exactamente los mismos pasos, lo que cambia es el comando del **paso 3**:
+Ahora, faltaría configurar la tecla (podría ser el `F10`) para poder ejecutar el programa. Son exactamente los mismos pasos, lo que cambia es el comando del **paso 3**:
 ```
 cmd /c cd C:\Users\syslan\Desktop\Test & make all & cmd /c start test & pause
 ```
